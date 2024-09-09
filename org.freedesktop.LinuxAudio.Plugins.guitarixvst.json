@@ -2,10 +2,9 @@
     "id": "org.freedesktop.LinuxAudio.Plugins.guitarixvst",
     "runtime": "org.freedesktop.LinuxAudio.BaseExtension",
     "runtime-version": "stable",
-    "sdk": "org.freedesktop.Sdk//23.08",
+    "sdk": "org.freedesktop.Sdk//24.08",
     "build-extension": true,
-    "appstream-compose": false,
-    "branch": "23.08",
+    "branch": "24.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/guitarixvst",
         "prepend-pkg-config-path": "/app/extensions/Plugins/guitarixvst/lib/pkgconfig",
@@ -135,8 +134,7 @@
                 "make -j$FLATPAK_BUILDER_N_JOBS",
                 "install -d $FLATPAK_DEST/vst3",
                 "cp -r ./Builds/LinuxMakefile/build/Guitarix.vst3 $FLATPAK_DEST/vst3",
-                "install -Dm644 org.freedesktop.LinuxAudio.Plugins.guitarixvst.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo",
-                "appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak ${FLATPAK_ID}"
+                "install -Dm644 org.freedesktop.LinuxAudio.Plugins.guitarixvst.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo"
             ],
             "sources": [
                 {
