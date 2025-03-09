@@ -16,6 +16,7 @@
     </description>
     <url type="homepage">https://github.com/brummer10/guitarix.vst</url>
     <releases>
+        <release version="0.5" date="2025-03-07" />
         <release version="0.4" date="2024-10-17" />
         <release version="0.3" date="2024-03-11" />
         <release version="0.2" date="2024-02-23" />
