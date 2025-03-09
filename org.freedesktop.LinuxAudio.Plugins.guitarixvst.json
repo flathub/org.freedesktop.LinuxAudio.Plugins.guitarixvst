@@ -35,7 +35,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source/boost_1_77_0.tar.bz2",
+                    "url": "https://archives.boost.io/release/1.77.0/source/boost_1_77_0.tar.bz2",
                     "sha256": "fc9f85fc030e233142908241af7a846e60630aa7388de9a5fafb1f3a26840854"
                 }
             ]
@@ -139,8 +139,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/brummer10/guitarix.vst/releases/download/v0.4/Guitarix.vst3_0.4.tar.gz",
-                    "sha256": "2fc71fb495695a5a98b4c2ee3997eb88803951d039e3231a9cffc721a212e402"
+                    "url": "https://github.com/brummer10/guitarix.vst/releases/download/v0.5/Guitarix.vst3_0.5.tar.gz",
+                    "sha256": "7b67521e9c2358df74e1876d76405c9a81820d5511046b9bd0a2b0d9bbaab823"
                 },
                 {
                     "type": "file",
